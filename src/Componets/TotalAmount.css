@@ -1,0 +1,24 @@
+/* src/components/TotalAmount.css */
+
+.total-amount {
+  background-color: #ecf0f1; /* Light gray background for total */
+  border-radius: 5px;
+  padding: 20px;
+  text-align: right; /* Align total to the right */
+  margin-bottom: 30px;
+  border: 1px solid #dcdcdc;
+}
+
+.total-amount h2 {
+  border-bottom: none; /* Remove underline from general h2 style */
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  color: #2c3e50;
+}
+
+.total-amount p {
+  font-size: 2.5em; /* Larger font for total amount */
+  font-weight: bold;
+  color: #27ae60; /* Green for the total amount */
+  margin: 0;
+}

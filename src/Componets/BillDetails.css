@@ -1,0 +1,45 @@
+/* src/components/BillDetails.css */
+
+.bill-details {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
+
+.bill-details form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for inputs */
+  gap: 15px; /* Space between grid items */
+}
+
+.bill-details div { /* Styling for the individual input groups */
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-details label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.bill-details input[type="text"],
+.bill-details input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  width: calc(100% - 22px); /* Account for padding and border */
+}
+
+.bill-details button {
+  grid-column: span 2; /* Make the button span both columns */
+  margin-top: 15px;
+  background-color: #2ecc71; /* Green for add item */
+}
+
+.bill-details button:hover {
+  background-color: #27ae60;
+}

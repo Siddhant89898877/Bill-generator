@@ -1,0 +1,44 @@
+/* src/components/ItemList.css */
+
+.item-list {
+  margin-bottom: 30px;
+}
+
+.item-list .item {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px dashed #e0e0e0; /* Dashed separator */
+}
+
+.item-list .item:last-child {
+  border-bottom: none; /* No border for the last item */
+}
+
+.item-list .item div {
+  flex: 1; /* Allow divs to grow */
+  color: #444;
+}
+
+.item-list .item div:first-child {
+  font-weight: bold;
+  flex: 2; /* Item name takes more space */
+}
+
+.item-list .item button {
+  background-color: #e74c3c; /* Red for delete */
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+  width: auto; /* Override App.css button width */
+  margin-top: 0;
+}
+
+.item-list .item button:hover {
+  background-color: #c0392b;
+}
