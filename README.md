@@ -86,11 +86,11 @@ After installation, you can run the application locally.
 
 ## Technologies Used
 
-* **HTML5:** For structuring the web content.
+* **HTML:** For structuring the web content.
 
-* **CSS3:** For styling and design, including responsiveness.
+* **CSS:** For styling and design, including responsiveness.
 
-* **JavaScript (ES6+):** For interactive functionality and calculations.
+* **JavaScript:** For interactive functionality and calculations.
 
 * **React.js:** For building the user interface.
 
